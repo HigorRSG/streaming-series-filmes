@@ -48,7 +48,7 @@ body{
     color: var(--cor-primaria);
     text-decoration: none;
     padding: 20px 20px;
-    font-size: 18px;
+    font-size: 1.125rem; /* Convertido de 18px para rem */
     font-family: var(--fonte-principal);
 }
 
@@ -58,6 +58,7 @@ body{
 
 .conteudo{
     display: flex;
+    flex-direction: column;
     flex: 1;
 }
 
@@ -83,6 +84,6 @@ body{
     text-align: center;
     background-color: var(--cor-primaria);
     color: white;
-    padding: 70px 0;
+    padding: 60px 0;
     font-family: var(--fonte-secundaria);
 }
